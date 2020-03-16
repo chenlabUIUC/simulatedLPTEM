@@ -1,5 +1,4 @@
-# TEM-simulation
-written by Lehan Yao  
+# simulatedLPTEM
 This code package is developed to generate simulated liquid-phase TEM images as the training dataset for machine learning based liquid-phase TEM movie segmention.  
 Current version: 1.0  
 Date: 3/2020  
