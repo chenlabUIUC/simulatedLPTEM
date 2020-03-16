@@ -7,7 +7,7 @@ For more information about the project, algorithms, and related publications ple
 
 Reference
 ---------------
-If you find our approach useful, please cite: L. Yao, Z. Ou, B. Luo, C. Xu, Q. Chen. ACS Cent. Sci (2020).
+If you find our approach useful, please cite: L. Yao, Z. Ou, B. Luo, C. Xu, Q. Chen. (sumbitted)
 
 Getting started
 ---------------
