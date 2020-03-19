@@ -18,8 +18,8 @@ The following steps should be executed:
 
 Note
 ---------------
-To generate your own MTF, replace the video/image in "MTF maker/MTF_concavecube.m" and run the script  
-The generated MTF data should be copied to "MTF data/"  
+To generate your own MTF, replace the image(s) in "MTF maker/MTF sample images" and run the script "MTF maker/MTF_maker.m"  
+The generated MTF data is in MTF maker/, and should be copied to "MTF data/"
 
 Revisions
 ---------------
