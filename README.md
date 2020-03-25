@@ -28,7 +28,7 @@ To run the program:
 Note
 ---------------
 The program reads .mat files from "/MTF data" as MTF of the simulated images. Example MTF data is provided. To generate your own MTF data, replace the image(s) in "MTF maker/MTF sample images" with your own noise image(s) and run the script "MTF maker/MTF_maker.m".  
-The generated MTF data is in MTF "maker/" and named with "MTFmatrixXXX.mat". It should be copied to "MTF data/" to be used by the simulation program.  
+The generated MTF data is in "MTF maker/" and named with "MTFmatrixXXX.mat". It should be copied to "MTF data/" to be used by the simulation program.  
 
 Revisions
 ---------------
