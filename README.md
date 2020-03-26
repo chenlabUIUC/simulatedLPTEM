@@ -14,11 +14,11 @@ The following steps should be executed only once (installation):
 (Matlab version: R2019a)  
 1. go to "/functions" and extract "eigen.zip" to "functions/eigen/"  
 2. open Matlab and redirect to "/functions".  
-3. use Matlab to compile 3 cpp/c files in "/functions" by commands:  
-   mex Inpolygon.c  
-   mex rasterization.cpp  
-   mex ray_tracing.cpp  
-   (if you don't have a compiler in matlab, go to add-ons, search and install "MinGw")  
+3. use Matlab to compile 3 cpp/c files in "/functions" by typing commands:  
+   mex InPolygon.c  
+   mex rasterization_mex.cpp  
+   mex ray_tracing_mex.cpp  
+   (if you don't have a compiler in Matlab, go to Add-Ons, search and install "MinGW-w64 C/C++ compiler")  
    
 To run the program:  
 1. open "simulation.mlapp" in Matlab  
@@ -27,8 +27,8 @@ To run the program:
 
 Note
 ---------------
-The program reads .mat files from "/MTF data" as MTF of the simulated images. Example MTF data is provided. To generate your own MTF data, replace the image(s) in "MTF maker/MTF sample images" with your own noise image(s) and run the script "MTF maker/MTF_maker.m".  
-The generated MTF data is in "MTF maker/" and named with "MTFmatrixXXX.mat". It should be copied to "MTF data/" to be used by the simulation program.  
+The program reads ".mat" files from "/MTF data" as MTF of the simulated images. Example MTF data is provided. To generate your own MTF data, replace the image(s) in "MTF maker/MTF sample images" with your own noise image(s) and run the script "MTF maker/MTF_maker.m".  
+The generated MTF data is stored in "MTF maker/" and named with "MTFmatrixXXX.mat". It should be copied to "MTF data/" to be used by the simulation program.  
 
 Revisions
 ---------------
