@@ -66,9 +66,9 @@ end
     mesh_t = mesh';
     ts = rasterization_mex(mesh_t(:)');
     [Xq,Yq] = meshgrid(1:1:RES);
-    
     out = griddata(mesh(:,1),mesh(:,2),ts,Xq,Yq);
     out(isnan(out)) = 0;
+    out=out*Sim_scale; %px->nm
 end
 
 function t = thickness(point,mesh,nor,inds)

@@ -113,6 +113,7 @@ end
     %scatter3(vs(:,1),vs(:,2),ts)
     out = griddata(mesh(:,1),mesh(:,2),ts,Xq,Yq);
     out(isnan(out)) = 0;
+    out=out*scale;
     %figure(2)
     %imshow(out./max(out(:)))
 end
